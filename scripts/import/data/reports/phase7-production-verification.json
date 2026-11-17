@@ -1,0 +1,76 @@
+{
+  "projectName": "KUTEMS",
+  "verifiedAt": "2026-11-16T20:34:11.433Z",
+  "firebase": {
+    "projectId": "kutems",
+    "projectNumber": "810820213557",
+    "webAppId": "1:810820213557:web:1a25ad40de9b809c014a7c",
+    "authDomain": "kutems.firebaseapp.com",
+    "firestoreDatabase": "(default)",
+    "firestoreLocation": "eur3",
+    "firestoreType": "FIRESTORE_NATIVE",
+    "emailPasswordProvider": "ENABLED_AND_ACTIVE",
+    "existingAdministrator": {
+      "email": "admin@gmail.com",
+      "uid": "fIXEBifBTXhBtJCCZYKiIfA7zmc2",
+      "customClaim": {
+        "admin": true
+      },
+      "verifiedStatus": "CONFIRMED"
+    },
+    "compositeIndexesStatus": "DEPLOYED_AND_ACTIVE",
+    "securityRulesStatus": "DEPLOYED_AND_ACTIVE"
+  },
+  "catalog": {
+    "totalProductsInFirestore": 1442,
+    "hardwareCount": 1348,
+    "automationCount": 94,
+    "mainCategoriesCount": 11,
+    "subcategoriesCount": 40,
+    "uniqueArticleNumbers": true,
+    "cloudflareMediaCount": 2930,
+    "cloudflareCdnHost": "https://kutems-media.pages.dev",
+    "storageBucketUploads": 0
+  },
+  "adminCms": {
+    "adminPanelRoute": "/admin",
+    "authorizationMethod": "Firebase Auth Custom Claims (request.auth.token.admin == true)",
+    "nonAdminAccessCheck": "ACCESS_DENIED_ENFORCED",
+    "modulesImplemented": [
+      "Dashboard (/admin)",
+      "Incoming Requests (/admin/requests)",
+      "Page Content Management (/admin/content)",
+      "Header Management (/admin/content/header)",
+      "Footer Management (/admin/content/footer)",
+      "Product Management (/admin/products)",
+      "Category Management (/admin/categories)",
+      "Media Library (/admin/media)",
+      "Site Settings & SEO (/admin/settings)",
+      "Audit Log (/admin/audit)"
+    ],
+    "publishWorkflow": "Draft and Instant Live Publish to Firestore"
+  },
+  "incomingRequestsSystem": {
+    "collection": "requests",
+    "publicSubmissionStatus": "CONNECTED_AND_VERIFIED",
+    "realtimeNotification": "onSnapshot_ACTIVE",
+    "securityRulesValidation": "STRICT_FIELD_VALIDATION_ACTIVE",
+    "publicReadAccess": "DENIED (403)",
+    "publicWriteAccess": "ALLOWED (strict schema)",
+    "adminFullAccess": "ALLOWED",
+    "statusLifecycle": [
+      "new",
+      "in_review",
+      "responded",
+      "closed",
+      "spam"
+    ],
+    "internalNotesPrivate": true
+  },
+  "qualityAndRegression": {
+    "typeScriptCheck": "PASSED (0 errors)",
+    "nextProductionBuild": "PASSED (22/22 routes prerendered)",
+    "springEngineUntouched": true,
+    "springCalculatorRegression": "100% PASSED (Normal Lift, Low Headroom, High Lift, Vertical Lift)"
+  }
+}

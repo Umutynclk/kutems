@@ -1,0 +1,72 @@
+{
+  "timestamp": "2026-11-16T22:51:18.448Z",
+  "projectName": "KUTEMS",
+  "auditCategory": "Light / Dark Theme Readability & WCAG Compliance",
+  "summary": {
+    "totalEvaluations": 60,
+    "passedCount": 60,
+    "failedCount": 0,
+    "passRatePercent": 100,
+    "wcagStandard": "WCAG 2.1 Level AA / AAA"
+  },
+  "rootCauseAnalysis": {
+    "primaryRootCause": {
+      "framework": "Tailwind CSS v4",
+      "issue": "In Tailwind v4, @import \"tailwindcss\" maps dark: variant to @media (prefers-color-scheme: dark) by default. The application manages theme state via an HTML class (.dark on <html>). Missing @custom-variant dark (&:where(.dark, .dark *)); caused OS-level dark mode to forcefully apply dark: classes even when users toggled to Light Mode.",
+      "impact": "Light mode displayed dark-mode styles in dark-mode OS environments, producing low-contrast or inverted color collisions.",
+      "resolution": "Added @custom-variant dark (&:where(.dark, .dark *)); directly after @import \"tailwindcss\" in src/app/globals.css."
+    },
+    "secondaryRootCause": {
+      "issue": "Low-contrast token usage: text-slate-400 (#94a3b8) on white (#ffffff) has a 2.3:1 contrast ratio, failing WCAG AA 4.5:1 minimum.",
+      "impact": "Product codes, table subtitles, search input placeholder, footer text, and category headers were washed out in light mode.",
+      "resolution": "Elevated light-mode text tokens to text-slate-600 (#475569, 7.0:1) and text-slate-700 (#334155, 9.5:1), and placeholder to text-slate-400 / text-slate-500."
+    }
+  },
+  "designTokens": {
+    "lightMode": {
+      "--bg-primary": "#ffffff",
+      "--bg-secondary": "#f8fafc",
+      "--border": "#e2e8f0",
+      "--text-primary": "#0f172a",
+      "--text-secondary": "#334155",
+      "--text-muted": "#64748b"
+    },
+    "darkMode": {
+      "--bg-primary": "#0b0f19",
+      "--bg-secondary": "#111827",
+      "--border": "#1e293b",
+      "--text-primary": "#f1f5f9",
+      "--text-secondary": "#cbd5e1",
+      "--text-muted": "#94a3b8"
+    }
+  },
+  "modifiedComponents": [
+    "src/app/globals.css",
+    "src/components/ui/Input.tsx",
+    "src/components/catalog/ProductCard.tsx",
+    "src/components/catalog/CategorySidebar.tsx",
+    "src/components/catalog/ProductFilters.tsx",
+    "src/components/catalog/ProductGrid.tsx",
+    "src/app/hardware/product/[slug]/ProductDetailClient.tsx",
+    "src/components/layout/Header.tsx",
+    "src/components/layout/Footer.tsx",
+    "src/components/inquiry/InquiryModal.tsx",
+    "src/components/layout/SearchModal.tsx",
+    "src/components/home/CategoryCards.tsx",
+    "src/app/admin/layout.tsx",
+    "src/app/admin/page.tsx",
+    "src/app/admin/requests/page.tsx",
+    "src/app/admin/products/page.tsx",
+    "src/app/admin/categories/page.tsx",
+    "src/app/admin/content/page.tsx",
+    "src/app/admin/media/page.tsx",
+    "src/app/admin/audit/page.tsx"
+  ],
+  "protectedInvariantsVerified": {
+    "springEngineUntouched": true,
+    "calculationRoutesUntouched": true,
+    "springFormulasIntact": true,
+    "firebaseStorageZeroMedia": true,
+    "cloudflarePagesCDNActive": true
+  }
+}

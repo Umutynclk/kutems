@@ -1,0 +1,10 @@
+{
+  "projectId": "kutems",
+  "firestoreDatabase": "(default)",
+  "firestoreLocation": "eur3",
+  "totalProductsImported": 1442,
+  "totalCategoriesImported": 11,
+  "failedProducts": 0,
+  "duplicateArticleNumbers": 0,
+  "timestamp": "2026-11-16T19:42:21.593Z"
+}

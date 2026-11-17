@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="trackBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#4338ca" stop-opacity="0.02" />
+    </linearGradient>
+    <linearGradient id="steelGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#94a3b8" />
+      <stop offset="30%" stop-color="#cbd5e1" />
+      <stop offset="70%" stop-color="#64748b" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#trackBg)" rx="16"/>
+  <!-- Track Profile Bend -->
+  <path d="M 80,240 L 80,120 Q 80,70 130,70 L 330,70" fill="none" stroke="url(#steelGlow)" stroke-width="24" stroke-linecap="round"/>
+  <path d="M 110,240 L 110,140 Q 110,100 150,100 L 330,100" fill="none" stroke="#1e293b" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Mounting Holes -->
+  <circle cx="80" cy="200" r="5" fill="#f8fafc"/>
+  <circle cx="80" cy="150" r="5" fill="#f8fafc"/>
+  <circle cx="250" cy="70" r="5" fill="#f8fafc"/>
+  
+  <!-- Dimension Badge -->
+  <rect x="130" y="245" width="140" height="28" rx="6" fill="#0f172a" fill-opacity="0.85"/>
+  <text x="200" y="264" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">2.0mm DX51D+Z275</text>
+</svg>

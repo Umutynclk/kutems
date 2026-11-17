@@ -1,0 +1,547 @@
+[
+  {
+    "id": "industrial-operators-accessories",
+    "slug": "industrial-operators-accessories",
+    "name": {
+      "en": "Industrial operators & accessories",
+      "tr": "Endüstriyel Kapı Motorları & Aksesuarları"
+    },
+    "description": {
+      "en": "",
+      "tr": ""
+    },
+    "type": "automation",
+    "order": 1,
+    "productCount": 63,
+    "subcategories": [
+      {
+        "id": "frequenz",
+        "categoryId": "industrial-operators-accessories",
+        "slug": "frequenz",
+        "name": {
+          "en": "Frequenz",
+          "tr": "Frequenz"
+        }
+      },
+      {
+        "id": "accessories",
+        "categoryId": "industrial-operators-accessories",
+        "slug": "accessories",
+        "name": {
+          "en": "Accessories",
+          "tr": "Aksesuarlar"
+        }
+      },
+      {
+        "id": "force",
+        "categoryId": "industrial-operators-accessories",
+        "slug": "force",
+        "name": {
+          "en": "Force",
+          "tr": "Force"
+        }
+      }
+    ]
+  },
+  {
+    "id": "residential-operator-accessories",
+    "slug": "residential-operator-accessories",
+    "name": {
+      "en": "Residential operator & accessories",
+      "tr": "Konut Garaj Kapısı Motorları & Aksesuarları"
+    },
+    "description": {
+      "en": "",
+      "tr": ""
+    },
+    "type": "automation",
+    "order": 2,
+    "productCount": 31,
+    "subcategories": [
+      {
+        "id": "yale-smart-go",
+        "categoryId": "residential-operator-accessories",
+        "slug": "yale-smart-go",
+        "name": {
+          "en": "Yale Smart Go",
+          "tr": "Yale Smart Go"
+        }
+      },
+      {
+        "id": "yale-powr",
+        "categoryId": "residential-operator-accessories",
+        "slug": "yale-powr",
+        "name": {
+          "en": "Yale Powr",
+          "tr": "Yale Powr"
+        }
+      },
+      {
+        "id": "accessories",
+        "categoryId": "residential-operator-accessories",
+        "slug": "accessories",
+        "name": {
+          "en": "Accessories",
+          "tr": "Aksesuarlar"
+        }
+      }
+    ]
+  },
+  {
+    "id": "springs",
+    "slug": "springs",
+    "name": {
+      "en": "Springs",
+      "tr": "Torsiyon & Çekme Yayları"
+    },
+    "description": {
+      "en": "",
+      "tr": ""
+    },
+    "type": "hardware",
+    "order": 3,
+    "productCount": 214,
+    "subcategories": [
+      {
+        "id": "tension-spring",
+        "categoryId": "springs",
+        "slug": "tension-spring",
+        "name": {
+          "en": "Tension spring",
+          "tr": "Tension spring"
+        }
+      },
+      {
+        "id": "torsion-springs",
+        "categoryId": "springs",
+        "slug": "torsion-springs",
+        "name": {
+          "en": "Torsion springs",
+          "tr": "Torsiyon Yayları"
+        }
+      },
+      {
+        "id": "spring-fittings",
+        "categoryId": "springs",
+        "slug": "spring-fittings",
+        "name": {
+          "en": "Spring fittings",
+          "tr": "Spring fittings"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lifting-guiding-components",
+    "slug": "lifting-guiding-components",
+    "name": {
+      "en": "Lifting & guiding components",
+      "tr": "Kaldırma & Kılavuz Bileşenleri"
+    },
+    "description": {
+      "en": "",
+      "tr": ""
+    },
+    "type": "hardware",
+    "order": 4,
+    "productCount": 163,
+    "subcategories": [
+      {
+        "id": "cable-break-devices",
+        "categoryId": "lifting-guiding-components",
+        "slug": "cable-break-devices",
+        "name": {
+          "en": "Cable break devices",
+          "tr": "Cable break devices"
+        }
+      },
+      {
+        "id": "spring-bumpers",
+        "categoryId": "lifting-guiding-components",
+        "slug": "spring-bumpers",
+        "name": {
+          "en": "Spring bumpers",
+          "tr": "Spring bumpers"
+        }
+      },
+      {
+        "id": "top-roller-carriers",
+        "categoryId": "lifting-guiding-components",
+        "slug": "top-roller-carriers",
+        "name": {
+          "en": "Top roller carriers",
+          "tr": "Top roller carriers"
+        }
+      },
+      {
+        "id": "bottom-brackets",
+        "categoryId": "lifting-guiding-components",
+        "slug": "bottom-brackets",
+        "name": {
+          "en": "Bottom brackets",
+          "tr": "Bottom brackets"
+        }
+      },
+      {
+        "id": "rollers",
+        "categoryId": "lifting-guiding-components",
+        "slug": "rollers",
+        "name": {
+          "en": "Rollers",
+          "tr": "Rollers"
+        }
+      },
+      {
+        "id": "hinges",
+        "categoryId": "lifting-guiding-components",
+        "slug": "hinges",
+        "name": {
+          "en": "Hinges",
+          "tr": "Menteşeler"
+        }
+      }
+    ]
+  },
+  {
+    "id": "track-systems-mounting-parts",
+    "slug": "track-systems-mounting-parts",
+    "name": {
+      "en": "Track systems & mounting parts",
+      "tr": "Ray Sistemleri & Montaj Parçaları"
+    },
+    "description": {
+      "en": "",
+      "tr": ""
+    },
+    "type": "hardware",
+    "order": 5,
+    "productCount": 563,
+    "subcategories": [
+      {
+        "id": "fixing-materials",
+        "categoryId": "track-systems-mounting-parts",
+        "slug": "fixing-materials",
+        "name": {
+          "en": "Fixing materials",
+          "tr": "Bağlantı & Tespit Malzemeleri"
+        }
+      },
+      {
+        "id": "box-beams",
+        "categoryId": "track-systems-mounting-parts",
+        "slug": "box-beams",
+        "name": {
+          "en": "Box beams",
+          "tr": "Box beams"
+        }
+      },
+      {
+        "id": "profiles",
+        "categoryId": "track-systems-mounting-parts",
+        "slug": "profiles",
+        "name": {
+          "en": "Profiles",
+          "tr": "Profiles"
+        }
+      },
+      {
+        "id": "mounting-plates",
+        "categoryId": "track-systems-mounting-parts",
+        "slug": "mounting-plates",
+        "name": {
+          "en": "Mounting plates",
+          "tr": "Mounting plates"
+        }
+      },
+      {
+        "id": "curves",
+        "categoryId": "track-systems-mounting-parts",
+        "slug": "curves",
+        "name": {
+          "en": "Curves",
+          "tr": "Curves"
+        }
+      },
+      {
+        "id": "track-connecting-plates",
+        "categoryId": "track-systems-mounting-parts",
+        "slug": "track-connecting-plates",
+        "name": {
+          "en": "Track connecting plates",
+          "tr": "Track connecting plates"
+        }
+      },
+      {
+        "id": "rsc-track-sets",
+        "categoryId": "track-systems-mounting-parts",
+        "slug": "rsc-track-sets",
+        "name": {
+          "en": "RSC track sets",
+          "tr": "RSC track sets"
+        }
+      },
+      {
+        "id": "nxt-residential-hardware-set",
+        "categoryId": "track-systems-mounting-parts",
+        "slug": "nxt-residential-hardware-set",
+        "name": {
+          "en": "NXT residential hardware set",
+          "tr": "NXT residential hardware set"
+        }
+      },
+      {
+        "id": "nxt-track-sets",
+        "categoryId": "track-systems-mounting-parts",
+        "slug": "nxt-track-sets",
+        "name": {
+          "en": "NXT track sets",
+          "tr": "NXT track sets"
+        }
+      }
+    ]
+  },
+  {
+    "id": "seals",
+    "slug": "seals",
+    "name": {
+      "en": "Seals",
+      "tr": "Sızdırmazlık Contaları"
+    },
+    "description": {
+      "en": "",
+      "tr": ""
+    },
+    "type": "hardware",
+    "order": 6,
+    "productCount": 55,
+    "subcategories": []
+  },
+  {
+    "id": "aluminum-side-profiles",
+    "slug": "aluminum-side-profiles",
+    "name": {
+      "en": "Aluminum side profiles",
+      "tr": "Alüminyum Yan Profiller"
+    },
+    "description": {
+      "en": "",
+      "tr": ""
+    },
+    "type": "hardware",
+    "order": 7,
+    "productCount": 95,
+    "subcategories": [
+      {
+        "id": "aluminum-profiles",
+        "categoryId": "aluminum-side-profiles",
+        "slug": "aluminum-profiles",
+        "name": {
+          "en": "Aluminum Profiles",
+          "tr": "Aluminum Profiles"
+        }
+      },
+      {
+        "id": "end-caps",
+        "categoryId": "aluminum-side-profiles",
+        "slug": "end-caps",
+        "name": {
+          "en": "End caps",
+          "tr": "End caps"
+        }
+      }
+    ]
+  },
+  {
+    "id": "value-packs",
+    "slug": "value-packs",
+    "name": {
+      "en": "Value Packs",
+      "tr": "Avantaj Paketleri"
+    },
+    "description": {
+      "en": "",
+      "tr": ""
+    },
+    "type": "hardware",
+    "order": 8,
+    "productCount": 40,
+    "subcategories": [
+      {
+        "id": "thermal",
+        "categoryId": "value-packs",
+        "slug": "thermal",
+        "name": {
+          "en": "Thermal",
+          "tr": "Thermal"
+        }
+      },
+      {
+        "id": "luxury",
+        "categoryId": "value-packs",
+        "slug": "luxury",
+        "name": {
+          "en": "Luxury",
+          "tr": "Luxury"
+        }
+      },
+      {
+        "id": "speed",
+        "categoryId": "value-packs",
+        "slug": "speed",
+        "name": {
+          "en": "Speed",
+          "tr": "Speed"
+        }
+      },
+      {
+        "id": "silent",
+        "categoryId": "value-packs",
+        "slug": "silent",
+        "name": {
+          "en": "Silent",
+          "tr": "Silent"
+        }
+      }
+    ]
+  },
+  {
+    "id": "spring-system-components",
+    "slug": "spring-system-components",
+    "name": {
+      "en": "Spring system components",
+      "tr": "Yay Sistemi Bileşenleri"
+    },
+    "description": {
+      "en": "",
+      "tr": ""
+    },
+    "type": "hardware",
+    "order": 9,
+    "productCount": 137,
+    "subcategories": [
+      {
+        "id": "bearing-plates",
+        "categoryId": "spring-system-components",
+        "slug": "bearing-plates",
+        "name": {
+          "en": "Bearing plates",
+          "tr": "Bearing plates"
+        }
+      },
+      {
+        "id": "bearings",
+        "categoryId": "spring-system-components",
+        "slug": "bearings",
+        "name": {
+          "en": "Bearings",
+          "tr": "Bearings"
+        }
+      },
+      {
+        "id": "spring-break-devices",
+        "categoryId": "spring-system-components",
+        "slug": "spring-break-devices",
+        "name": {
+          "en": "Spring break devices",
+          "tr": "Yay Kırılma Emniyet Cihazları"
+        }
+      },
+      {
+        "id": "shaft",
+        "categoryId": "spring-system-components",
+        "slug": "shaft",
+        "name": {
+          "en": "Shaft",
+          "tr": "Shaft"
+        }
+      },
+      {
+        "id": "couplers",
+        "categoryId": "spring-system-components",
+        "slug": "couplers",
+        "name": {
+          "en": "Couplers",
+          "tr": "Couplers"
+        }
+      },
+      {
+        "id": "cable-drums",
+        "categoryId": "spring-system-components",
+        "slug": "cable-drums",
+        "name": {
+          "en": "Cable drums",
+          "tr": "Halat Tamburları"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cable-installation",
+    "slug": "cable-installation",
+    "name": {
+      "en": "Cable & installation",
+      "tr": "Çelik Halat & Montaj Malzemeleri"
+    },
+    "description": {
+      "en": "",
+      "tr": ""
+    },
+    "type": "hardware",
+    "order": 10,
+    "productCount": 79,
+    "subcategories": [
+      {
+        "id": "cable-pulleys",
+        "categoryId": "cable-installation",
+        "slug": "cable-pulleys",
+        "name": {
+          "en": "Cable pulleys",
+          "tr": "Cable pulleys"
+        }
+      },
+      {
+        "id": "lifting-cables",
+        "categoryId": "cable-installation",
+        "slug": "lifting-cables",
+        "name": {
+          "en": "Lifting cables",
+          "tr": "Lifting cables"
+        }
+      },
+      {
+        "id": "cable-tension-set",
+        "categoryId": "cable-installation",
+        "slug": "cable-tension-set",
+        "name": {
+          "en": "Cable tension set",
+          "tr": "Cable tension set"
+        }
+      },
+      {
+        "id": "chain-host",
+        "categoryId": "cable-installation",
+        "slug": "chain-host",
+        "name": {
+          "en": "Chain host",
+          "tr": "Chain host"
+        }
+      }
+    ]
+  },
+  {
+    "id": "torsion-spring",
+    "slug": "torsion-spring",
+    "name": {
+      "en": "Torsion spring",
+      "tr": "Torsiyon Yayı"
+    },
+    "description": {
+      "en": "",
+      "tr": ""
+    },
+    "type": "hardware",
+    "order": 11,
+    "productCount": 2,
+    "subcategories": []
+  }
+]

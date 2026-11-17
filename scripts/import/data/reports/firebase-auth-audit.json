@@ -1,0 +1,32 @@
+{
+  "projectId": "kutems",
+  "projectNumber": "810820213557",
+  "firebaseAppId": "1:810820213557:web:1a25ad40de9b809c014a7c",
+  "authDomain": "kutems.firebaseapp.com",
+  "emailPasswordProviderStatus": "ENABLED",
+  "emailPasswordProviderVerification": "auth/invalid-credential returned (provider active, no user yet)",
+  "passwordResetEmailVerification": "sendPasswordResetEmail API responded successfully",
+  "implementedFeatures": [
+    "signInWithEmailAndPassword",
+    "createUserWithEmailAndPassword",
+    "signOut",
+    "sendPasswordResetEmail",
+    "sendEmailVerification",
+    "onAuthStateChanged",
+    "browserLocalPersistence",
+    "getIdTokenResult (admin claim check)"
+  ],
+  "authPages": [
+    "/login",
+    "/register",
+    "/forgot-password",
+    "/account"
+  ],
+  "authContextFile": "src/context/AuthContext.tsx",
+  "adminClaimScript": "scripts/set-admin-claim.js",
+  "userProfileCollection": "users/{uid}",
+  "registrationCreatesAdminRole": false,
+  "passwordStoredInFirestore": false,
+  "passwordStoredInLocalStorage": false,
+  "generatedAt": "2026-11-16T19:47:32.193Z"
+}

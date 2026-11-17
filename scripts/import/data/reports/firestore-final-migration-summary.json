@@ -1,0 +1,29 @@
+{
+  "projectName": "KUTEMS",
+  "firebaseProjectId": "kutems",
+  "firebaseAppId": "1:810820213557:web:1a25ad40de9b809c014a7c",
+  "firestoreDatabase": "(default)",
+  "firestoreLocation": "eur3",
+  "emailPasswordAuthStatus": "ENABLED AND VERIFIED",
+  "authPagesImplemented": [
+    "/login",
+    "/register",
+    "/forgot-password",
+    "/account"
+  ],
+  "totalProductsImported": 1442,
+  "totalCategoriesImported": 11,
+  "hardwareProducts": 1348,
+  "automationProducts": 94,
+  "failedProducts": 0,
+  "firestoreSecurityRules": "DEPLOYED AND VERIFIED",
+  "compositeIndexes": "DEPLOYED (building)",
+  "mediaCdnHost": "https://kutems-media.pages.dev",
+  "imagesOnFirebaseStorage": 0,
+  "cloudflareImagesVerified": "2922/2922 (100%)",
+  "cloudflarePDFsVerified": "8/8 (100%)",
+  "typeScriptStatus": "PASSED (0 errors)",
+  "productionBuildStatus": "PASSED",
+  "springCalculatorRegression": "ALL 4 SYSTEMS PASSED (untouched)",
+  "generatedAt": "2026-11-16T19:47:32.213Z"
+}

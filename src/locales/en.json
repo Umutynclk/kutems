@@ -1,0 +1,208 @@
+{
+  "nav": {
+    "home": "Home",
+    "calculation": "Spring Calculation",
+    "hardware": "Hardware Catalog",
+    "automation": "Automation",
+    "search": "Search...",
+    "searchPlaceholder": "Search by product name, item code, or category...",
+    "searchQuick": "Quick Search (Cmd + K)",
+    "language": "Language",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "menu": "Menu"
+  },
+  "home": {
+    "badge": "NEXT-GENERATION INDUSTRIAL DOOR HARDWARE & CALCULATION SYSTEM",
+    "heroTitle": "Engineering Precision for",
+    "heroTitleHighlight": "Sectional Door Systems",
+    "heroDescription": "Manage your door projects professionally with our high-precision torsion spring calculation engine, extensive hardware components catalog, and industrial automation solutions.",
+    "ctaCalculate": "Start Calculation",
+    "ctaHardware": "Browse Catalog",
+    "cards": {
+      "calculation": {
+        "tag": "ENGINEERING ENGINE",
+        "title": "Spring Calculation (SpringForce)",
+        "description": "Calculate your torsion spring systems with millimeter accuracy using drum type, wire diameter, turns, and cycle life parameters.",
+        "action": "Start Calculation"
+      },
+      "hardware": {
+        "tag": "COMPONENTS CATALOG",
+        "title": "Hardware Systems",
+        "description": "Explore thousands of technical parts including track systems, cable drums, shaft components, rollers, and profiles.",
+        "action": "Explore Hardware"
+      },
+      "automation": {
+        "tag": "MOTORS & ELECTRONICS",
+        "title": "Automation Solutions",
+        "description": "High-performance operators, control units, and safety accessories for residential and industrial sectional doors.",
+        "action": "Explore Automation"
+      }
+    },
+    "features": {
+      "title": "Why Our System?",
+      "subtitle": "Engineered for B2B door manufacturers and installation specialists",
+      "f1Title": "Accurate Mathematical Algorithms",
+      "f1Desc": "Instantly analyzes the optimal 5 torsion spring combinations for any door weight and track configuration.",
+      "f2Title": "Comprehensive Technical Database",
+      "f2Desc": "Technical drawings, tolerances, and compatibility data for all hardware and automation components in one platform.",
+      "f3Title": "Bilingual Global Standard",
+      "f3Desc": "EN 13241-1 compliant calculation methodology and fully bilingual interface built to international standards."
+    }
+  },
+  "calculator": {
+    "title": "Torsion Spring Calculation",
+    "subtitle": "Enter door dimensions, track type, and weight parameters to list the 5 most efficient spring solutions for your system.",
+    "steps": {
+      "basic": "1. Basic Door Data",
+      "track": "2. Track & Drum Configuration",
+      "spring": "3. Spring Parameters",
+      "cable": "4. Cable & Safety",
+      "summary": "Summary Calculation Parameters"
+    },
+    "fields": {
+      "trackSystem": "Track System",
+      "doorWidth": "Door Width",
+      "doorHeight": "Door Height",
+      "highLiftSize": "High Lift Size",
+      "trackPitch": "Track Pitch",
+      "hingedSections": "Hinged Sections",
+      "calcWeight": "Calc. Weight Factor",
+      "totalDoorWeight": "Total Door Weight",
+      "bottomSection": "Bottom Section Type",
+      "heightBottomSection": "Height Bottom Section",
+      "openDoorWeight": "Open Door Weight",
+      "numberOfTurns": "Number of Turns (Pre-tension)",
+      "drumSpecification": "Drum Specification",
+      "drum": "Drum Model",
+      "torsionSprings": "Torsion Springs Quantity",
+      "shaftConnectors": "Shaft Connectors",
+      "shaftDiameter": "Shaft Diameter (Shaft Ø)",
+      "springFinish": "Spring Finish",
+      "minCycles": "Min. Number of Cycles",
+      "springTypes": "Spring Types Configuration",
+      "cableType": "Cable Type",
+      "cableDiameter": "Cable Diameter",
+      "cableTensionSet": "Cable Tension Set",
+      "cableLength": "Cable Length",
+      "cableMaxLoad": "Cable Max. Load",
+      "torqueTotal": "Total Torque",
+      "torquePerSpring": "Torque per Spring"
+    },
+    "placeholders": {
+      "doorWidth": "e.g. 2500",
+      "doorHeight": "e.g. 2125",
+      "highLiftSize": "e.g. 1200",
+      "trackPitch": "e.g. 0",
+      "totalDoorWeight": "Auto or manual kg",
+      "openDoorWeight": "e.g. 18",
+      "numberOfTurns": "e.g. 8.2",
+      "cableLength": "e.g. 3100",
+      "cableMaxLoad": "e.g. 450"
+    },
+    "tooltips": {
+      "trackSystem": "Determines track geometry according to ceiling angle or headroom.",
+      "doorWidth": "Clear daylight opening width (mm).",
+      "doorHeight": "Clear daylight opening height (mm).",
+      "minCycles": "Targeted service lifetime (open/close cycles).",
+      "springFinish": "Spring surface treatment for corrosion resistance and aesthetics."
+    },
+    "buttons": {
+      "calculate": "Calculate Spring System",
+      "calculating": "Calculating...",
+      "reset": "Reset Form",
+      "showDetails": "Show Details",
+      "hideDetails": "Hide Details",
+      "exportPdf": "Export Report",
+      "copySpecs": "Copy Parameters",
+      "copied": "Copied!"
+    },
+    "results": {
+      "title": "Calculation Results",
+      "subtitle": "5 alternative spring solutions generated based on your criteria.",
+      "summaryMetrics": "Calculated Key Values",
+      "solutionsCount": "Solutions Found",
+      "table": {
+        "solution": "Solution",
+        "drum": "Drum",
+        "turns": "Turns",
+        "cycles": "Cycles",
+        "wireDia": "Wire Ø (mm)",
+        "outerDia": "Outer Ø (mm)",
+        "springLength": "Length (mm)",
+        "quantity": "Qty",
+        "direction": "Direction",
+        "torque": "Torque (Nmm/Turn)",
+        "weight": "Weight",
+        "actions": "Details"
+      },
+      "details": {
+        "solutionTitle": "Solution Details",
+        "wireDiameter": "Wire Diameter",
+        "springDiameter": "Inner / Outer Diameter",
+        "totalSpringLength": "Total Spring Length",
+        "winds": "Active Coils",
+        "direction": "Winding Direction (LW / RW)",
+        "shaftDiameter": "Compatible Shaft Ø",
+        "springCode": "Suggested Part Code",
+        "springWeight": "Spring Mass"
+      }
+    }
+  },
+  "catalog": {
+    "hardwareTitle": "Hardware Components Catalog",
+    "hardwareSubtitle": "Industry standard track, shaft, spring, and mounting components for sectional door systems.",
+    "automationTitle": "Automation & Drive Systems",
+    "automationSubtitle": "Heavy-duty overhead and shaft operators, safety photocells, and remote controls.",
+    "categories": "Categories",
+    "allCategories": "All Categories",
+    "subcategories": "Subcategories",
+    "allProducts": "All Products",
+    "search": "Search in catalog...",
+    "sortBy": "Sort By",
+    "sortOptions": {
+      "nameAsc": "Name (A-Z)",
+      "nameDesc": "Name (Z-A)",
+      "codeAsc": "Product Code (A-Z)",
+      "newest": "Newest"
+    },
+    "resultsFound": "products found",
+    "noProducts": "No products match your search criteria.",
+    "clearFilters": "Clear Filters",
+    "viewDetails": "View Details",
+    "productCode": "Item Code",
+    "specs": "Technical Specifications",
+    "material": "Material",
+    "dimensions": "Dimensions",
+    "downloads": "Technical Documents",
+    "downloadPdf": "Download Technical Sheet / PDF",
+    "compatible": "Compatible Accessories",
+    "backToCatalog": "Back to Catalog",
+    "overview": "Product Overview",
+    "inquire": "Technical Inquiry"
+  },
+  "footer": {
+    "description": "Your trusted B2B partner in sectional door hardware, automation systems, and engineering calculation solutions.",
+    "quickLinks": "Quick Links",
+    "categories": "Product Groups",
+    "springSystems": "Spring Systems",
+    "trackComponents": "Track Components",
+    "automationGroup": "Automation Group",
+    "support": "Support & Engineering",
+    "standards": "EN 13241-1 Standards",
+    "documentation": "Technical Manuals",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "notFoundTitle": "Page Not Found",
+    "notFoundDesc": "The page you are looking for does not exist or has been moved.",
+    "backHome": "Return Home",
+    "optional": "Optional",
+    "required": "Required"
+  }
+}

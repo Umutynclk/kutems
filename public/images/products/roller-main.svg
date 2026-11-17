@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="rollerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#047857" stop-opacity="0.02" />
+    </linearGradient>
+    <linearGradient id="stemMetal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e2e8f0" />
+      <stop offset="50%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#64748b" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#rollerBg)" rx="16"/>
+  <!-- Stem Shaft -->
+  <rect x="170" y="138" width="170" height="24" rx="4" fill="url(#stemMetal)" stroke="#334155" stroke-width="2"/>
+  <!-- Bearing Hub -->
+  <rect x="145" y="132" width="30" height="36" rx="4" fill="#334155"/>
+  <!-- Nylon Wheel -->
+  <ellipse cx="120" cy="150" rx="35" ry="60" fill="#f8fafc" stroke="#334155" stroke-width="4"/>
+  <ellipse cx="120" cy="150" rx="18" ry="32" fill="#334155"/>
+  <ellipse cx="120" cy="150" rx="10" ry="18" fill="#e2e8f0"/>
+  
+  <!-- Dimension Badge -->
+  <rect x="130" y="245" width="140" height="28" rx="6" fill="#0f172a" fill-opacity="0.85"/>
+  <text x="200" y="264" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">2" Nylon / 6200ZZ</text>
+</svg>

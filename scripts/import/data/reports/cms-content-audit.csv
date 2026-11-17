@@ -1,0 +1,8 @@
+pageKey,route,sectionId,type,titleTr,titleEn,status
+home,/,hero,hero,Seksiyonel Kapı Sistemlerinde,In Sectional Door Systems,Published
+home,/,features,features,Neden KUTEMS?,Why KUTEMS?,Published
+home,/,cta,cta,Projeniz için Özel Çözüm mü Arıyorsunuz?,Looking for a Custom Solution for Your Project?,Published
+hardware,/hardware,hero,banner,Endüstri Standardı Kapı Donanımları,Industry Standard Door Hardware,Published
+automation,/automation,hero,banner,Güvenilir ve Güçlü Otomasyon,Reliable and Powerful Automation,Published
+global,Header,header_nav,navigation,"Yay Hesaplama, Donanım, Otomasyon","Spring Calculation, Hardware, Automation",Published
+global,Footer,footer_info,footer,KUTEMS Endüstriyel Kapı Sistemleri,KUTEMS Industrial Door Systems,Published

@@ -1,0 +1,48 @@
+{
+  "projectId": "kutems",
+  "rulesFile": "firestore.rules",
+  "activeDatabase": "(default) in eur3",
+  "rulesVersion": 2,
+  "collections": {
+    "products": {
+      "read": "Public",
+      "create": "Admin only",
+      "update": "Admin only",
+      "delete": "Admin only"
+    },
+    "categories": {
+      "read": "Public",
+      "create": "Admin only",
+      "update": "Admin only",
+      "delete": "Admin only"
+    },
+    "site_pages": {
+      "read": "Public (published == true) or Admin",
+      "write": "Admin only"
+    },
+    "site_settings": {
+      "read": "Public",
+      "write": "Admin only"
+    },
+    "requests": {
+      "read": "Admin only (Public 403 denied)",
+      "create": "Public with strict schema validation (status == new, no role/admin fields)",
+      "update": "Admin only",
+      "delete": "Admin only"
+    },
+    "users": {
+      "read": "Owner or Admin",
+      "update": "Owner (non-role fields) or Admin",
+      "create": "Owner (user role only)"
+    },
+    "admin_audit_logs": {
+      "read": "Admin only",
+      "create": "Admin only",
+      "update": "Denied",
+      "delete": "Denied"
+    }
+  },
+  "defaultDeny": "All unspecified documents denied",
+  "verifiedCustomClaim": "request.auth.token.admin == true",
+  "testedAt": "2026-11-16T20:34:11.434Z"
+}

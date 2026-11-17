@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="springGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#1e40af" stop-opacity="0.05" />
+    </linearGradient>
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#64748b" />
+      <stop offset="50%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="coilGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#475569" />
+      <stop offset="30%" stop-color="#94a3b8" />
+      <stop offset="70%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#springGrad)" rx="16"/>
+  <!-- Technical Grid Background -->
+  <path d="M 0,50 L 400,50 M 0,100 L 400,100 M 0,150 L 400,150 M 0,200 L 400,200 M 0,250 L 400,250" stroke="#cbd5e1" stroke-width="0.75" stroke-dasharray="4,4" opacity="0.4"/>
+  <path d="M 50,0 L 50,300 M 100,0 L 100,300 M 150,0 L 150,300 M 200,0 L 200,300 M 250,0 L 250,300 M 300,0 L 300,300 M 350,0 L 350,300" stroke="#cbd5e1" stroke-width="0.75" stroke-dasharray="4,4" opacity="0.4"/>
+  
+  <!-- Left Fitting / Plug -->
+  <rect x="50" y="115" width="30" height="70" rx="4" fill="url(#metalGrad)"/>
+  <circle cx="65" cy="150" r="14" fill="#0f172a"/>
+  
+  <!-- Torsion Spring Coils -->
+  <g fill="none" stroke="url(#coilGrad)" stroke-width="12" stroke-linecap="round">
+    <path d="M 85,120 Q 95,95 105,120 T 125,120 T 145,120 T 165,120 T 185,120 T 205,120 T 225,120 T 245,120 T 265,120 T 285,120 T 305,120" />
+    <path d="M 85,180 Q 95,205 105,180 T 125,180 T 145,180 T 165,180 T 185,180 T 205,180 T 225,180 T 245,180 T 265,180 T 285,180 T 305,180" />
+  </g>
+  
+  <!-- Right Winding Cone -->
+  <rect x="315" y="110" width="35" height="80" rx="4" fill="url(#metalGrad)"/>
+  <circle cx="332" cy="150" r="14" fill="#0f172a"/>
+  
+  <!-- Dimension Badge -->
+  <rect x="130" y="235" width="140" height="30" rx="6" fill="#0f172a" fill-opacity="0.85"/>
+  <text x="200" y="255" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Ø 8.50mm / 95mm</text>
+</svg>

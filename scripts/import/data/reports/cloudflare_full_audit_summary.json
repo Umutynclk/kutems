@@ -1,0 +1,11 @@
+{
+  "totalFilesAudited": 2930,
+  "totalImagesAudited": 2922,
+  "verifiedImagesCount": 2922,
+  "totalDocsAudited": 8,
+  "verifiedDocsCount": 8,
+  "failedCount": 0,
+  "verificationSuccessRate": "100.00%",
+  "csvReportPath": "/Users/umutyoncalik/Desktop/DATA/volkanDogan/kutems/scripts/import/data/reports/cloudflare-full-url-audit.csv",
+  "completedAt": "2026-11-16T18:56:29.908Z"
+}

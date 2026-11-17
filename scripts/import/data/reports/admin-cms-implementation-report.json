@@ -1,0 +1,96 @@
+{
+  "cmsSystem": "KUTEMS Firestore CMS",
+  "implementedPages": [
+    {
+      "key": "home",
+      "route": "/",
+      "editableSections": [
+        "hero",
+        "features",
+        "cta"
+      ],
+      "status": "SEEDED_AND_EDITABLE"
+    },
+    {
+      "key": "hardware",
+      "route": "/hardware",
+      "editableSections": [
+        "hero"
+      ],
+      "status": "SEEDED_AND_EDITABLE"
+    },
+    {
+      "key": "automation",
+      "route": "/automation",
+      "editableSections": [
+        "hero"
+      ],
+      "status": "SEEDED_AND_EDITABLE"
+    }
+  ],
+  "globalConfigurations": {
+    "header": {
+      "editable": true,
+      "fields": [
+        "logoUrl",
+        "navItems",
+        "ctaText",
+        "ctaHref"
+      ]
+    },
+    "footer": {
+      "editable": true,
+      "fields": [
+        "title",
+        "description",
+        "copyright",
+        "contact",
+        "social"
+      ]
+    },
+    "settings": {
+      "editable": true,
+      "fields": [
+        "siteName",
+        "defaultLanguage",
+        "seoDefaultTitle",
+        "seoDefaultDescription"
+      ]
+    }
+  },
+  "bilingualSupport": {
+    "turkish": "Full TR editing support",
+    "english": "Full EN editing support",
+    "liveToggle": "Real-time tab switching in editor"
+  },
+  "productEditing": {
+    "totalProductsAvailable": 1442,
+    "editableFields": [
+      "name",
+      "shortDescription",
+      "description",
+      "specifications",
+      "images",
+      "featured"
+    ],
+    "cdnLock": "Images restricted to Cloudflare Pages"
+  },
+  "categoryEditing": {
+    "totalMainCategories": 11,
+    "totalSubcategories": 40,
+    "editableFields": [
+      "name.tr",
+      "name.en",
+      "order"
+    ]
+  },
+  "mediaLibrary": {
+    "sourceManifest": "scripts/import/data/ready/cloudflare_file_manifest.json",
+    "totalFiles": 2930,
+    "images": 2922,
+    "documents": 8,
+    "cdnHost": "https://kutems-media.pages.dev",
+    "apiEndpoint": "/api/media"
+  },
+  "generatedAt": "2026-11-16T20:34:11.434Z"
+}

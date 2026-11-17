@@ -1,0 +1,93 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isAdmin() {
+      return isAuthenticated() && request.auth.token.admin == true;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // Products: public read, admin-only write
+    match /products/{productId} {
+      allow read: if true;
+      allow create, update, delete: if isAdmin();
+    }
+
+    // Categories: public read, admin-only write
+    match /categories/{categoryId} {
+      allow read: if true;
+      allow create, update, delete: if isAdmin();
+    }
+
+    // Site Pages: public read published, admin full access
+    match /site_pages/{pageId} {
+      allow read: if resource.data.published == true || isAdmin();
+      allow create, update, delete: if isAdmin();
+    }
+
+    // Site Settings: public read, admin write
+    match /site_settings/{settingId} {
+      allow read: if true;
+      allow create, update, delete: if isAdmin();
+    }
+
+    // Incoming Requests (Talep / Teklif Formu):
+    // Public visitors can CREATE with strict validation, but CANNOT read, list, update, or delete.
+    // Admins have full read/write access.
+    match /requests/{requestId} {
+      allow read, delete: if isAdmin();
+      allow update: if isAdmin();
+      allow create: if (
+        // Must contain required fields
+        request.resource.data.keys().hasAll(['name', 'email', 'requestType', 'status', 'createdAt']) &&
+        // Only permitted fields
+        request.resource.data.keys().hasOnly([
+          'requestId', 'requestType', 'name', 'email', 'phone', 'company',
+          'message', 'productId', 'productCode', 'articleNumber', 'productName',
+          'sourcePage', 'locale', 'status', 'createdAt', 'updatedAt', 'internalNotes'
+        ]) &&
+        // Status must be 'new' on creation
+        request.resource.data.status == 'new' &&
+        // Type must be one of the allowed types
+        request.resource.data.requestType in ['product_inquiry', 'quote', 'contact', 'other'] &&
+        // Name & Email length limits
+        request.resource.data.name is string && request.resource.data.name.size() > 0 && request.resource.data.name.size() <= 200 &&
+        request.resource.data.email is string && request.resource.data.email.size() > 0 && request.resource.data.email.size() <= 200 &&
+        // Honeypot or anti-tamper: no admin fields allowed
+        !request.resource.data.keys().hasAny(['admin', 'role']) &&
+        // Internal notes must not be present or must be empty on public creation
+        (!request.resource.data.keys().hasAny(['internalNotes']) || isAdmin())
+      );
+    }
+
+    // User profiles: users can read their own profile, update permitted fields, admin can read/manage
+    match /users/{userId} {
+      allow read: if isOwner(userId) || isAdmin();
+      allow create: if isOwner(userId)
+                    && (!request.resource.data.keys().hasAny(['admin', 'role']) || request.resource.data.role == 'user');
+      allow update: if (isOwner(userId)
+                        && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['admin', 'role', 'uid', 'email']))
+                    || isAdmin();
+      allow delete: if isAdmin();
+    }
+
+    // Audit logs: admin read and create
+    match /admin_audit_logs/{logId} {
+      allow read, create: if isAdmin();
+      allow update, delete: if false;
+    }
+
+    // Default deny for all other collections
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

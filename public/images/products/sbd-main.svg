@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sbdBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#b91c1c" stop-opacity="0.02" />
+    </linearGradient>
+    <linearGradient id="sbdMetal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#cbd5e1" />
+      <stop offset="50%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#475569" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#sbdBg)" rx="16"/>
+  <!-- Bracket Body -->
+  <path d="M 130,70 L 270,70 L 270,210 L 220,210 L 220,180 L 180,180 L 180,210 L 130,210 Z" fill="url(#sbdMetal)" stroke="#334155" stroke-width="3"/>
+  <!-- Ratchet Wheel Center -->
+  <circle cx="200" cy="125" r="42" fill="#334155" stroke="#1e293b" stroke-width="2"/>
+  <circle cx="200" cy="125" r="22" fill="#0f172a"/>
+  <!-- Locking Pawl -->
+  <path d="M 160,105 L 185,115 L 175,135 Z" fill="#ef4444" stroke="#991b1b" stroke-width="1.5"/>
+  <!-- Mounting Holes -->
+  <circle cx="150" cy="90" r="6" fill="#0f172a"/>
+  <circle cx="250" cy="90" r="6" fill="#0f172a"/>
+  
+  <!-- Dimension Badge -->
+  <rect x="120" y="245" width="160" height="28" rx="6" fill="#0f172a" fill-opacity="0.85"/>
+  <text x="200" y="264" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">EN 13241-1 / SBD-67</text>
+</svg>

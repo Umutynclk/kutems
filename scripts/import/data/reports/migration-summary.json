@@ -1,0 +1,20 @@
+{
+  "totalSourceProductsDiscovered": 1442,
+  "totalNormalizedProducts": 1442,
+  "automationProducts": 94,
+  "hardwareProducts": 1348,
+  "expectedReconciliation": {
+    "automationTarget": 94,
+    "automationActual": 94,
+    "hardwareTarget": 1348,
+    "hardwareActual": 1348,
+    "totalTarget": 1442,
+    "totalActual": 1442,
+    "match": true
+  },
+  "totalCategories": 11,
+  "totalImagesCataloged": 2922,
+  "failedExtractions": 0,
+  "targetFirebaseProject": "kutems",
+  "generatedAt": "2026-11-16T15:17:27.225Z"
+}

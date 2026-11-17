@@ -1,0 +1,61 @@
+Component,Element,Theme Mode,Background Hex,Foreground Hex,Contrast Ratio,Min Required,WCAG Grade,Passed
+"Body / Page Background","Primary Body Text","Light","#f8fafc","#0f172a",17.06:1,4.5:1,"AAA",TRUE
+"Body / Page Background","Primary Body Text","Dark","#020617","#f1f5f9",18.41:1,4.5:1,"AAA",TRUE
+"Card / Surface","Heading Text","Light","#ffffff","#0f172a",17.85:1,3:1,"AAA",TRUE
+"Card / Surface","Heading Text","Dark","#0f172a","#f1f5f9",16.3:1,3:1,"AAA",TRUE
+"Card / Surface","Secondary / Subtitle Text","Light","#ffffff","#334155",10.35:1,4.5:1,"AAA",TRUE
+"Card / Surface","Secondary / Subtitle Text","Dark","#0f172a","#cbd5e1",12.02:1,4.5:1,"AAA",TRUE
+"Card / Surface","Muted Description Text","Light","#ffffff","#475569",7.58:1,4.5:1,"AAA",TRUE
+"Card / Surface","Muted Description Text","Dark","#0f172a","#94a3b8",6.96:1,4.5:1,"AA",TRUE
+"Form Input","Input Label","Light","#f8fafc","#334155",9.9:1,4.5:1,"AAA",TRUE
+"Form Input","Input Label","Dark","#020617","#cbd5e1",13.59:1,4.5:1,"AAA",TRUE
+"Form Input","Entered Text","Light","#ffffff","#0f172a",17.85:1,4.5:1,"AAA",TRUE
+"Form Input","Entered Text","Dark","#0f172a","#f1f5f9",16.3:1,4.5:1,"AAA",TRUE
+"Form Input","Placeholder Text","Light","#ffffff","#64748b",4.76:1,3:1,"AA",TRUE
+"Form Input","Placeholder Text","Dark","#0f172a","#94a3b8",6.96:1,3:1,"AA",TRUE
+"Form Input","Input Focus Ring / Active Boundary","Light","#ffffff","#2563eb",5.17:1,3:1,"AA",TRUE
+"Form Input","Input Focus Ring / Active Boundary","Dark","#0f172a","#60a5fa",7.02:1,3:1,"AAA",TRUE
+"Form Input","Error Message","Light","#ffffff","#dc2626",4.83:1,4.5:1,"AA",TRUE
+"Form Input","Error Message","Dark","#0f172a","#f87171",6.45:1,4.5:1,"AA",TRUE
+"Primary Button","Button Label","Light","#2563eb","#ffffff",5.17:1,4.5:1,"AA",TRUE
+"Primary Button","Button Label","Dark","#2563eb","#ffffff",5.17:1,4.5:1,"AA",TRUE
+"Secondary / Dark Button","Button Label","Light","#0f172a","#ffffff",17.85:1,4.5:1,"AAA",TRUE
+"Secondary / Dark Button","Button Label","Dark","#ffffff","#0f172a",17.85:1,4.5:1,"AAA",TRUE
+"Outline Button","Button Text","Light","#ffffff","#0f172a",17.85:1,4.5:1,"AAA",TRUE
+"Outline Button","Button Text","Dark","#0f172a","#f1f5f9",16.3:1,4.5:1,"AAA",TRUE
+"Product Card","Product Code (Article No)","Light","#ffffff","#475569",7.58:1,4.5:1,"AAA",TRUE
+"Product Card","Product Code (Article No)","Dark","#0f172a","#94a3b8",6.96:1,4.5:1,"AA",TRUE
+"Product Card","Product Title","Light","#ffffff","#0f172a",17.85:1,4.5:1,"AAA",TRUE
+"Product Card","Product Title","Dark","#0f172a","#f1f5f9",16.3:1,4.5:1,"AAA",TRUE
+"Product Card","Product Description","Light","#ffffff","#475569",7.58:1,4.5:1,"AAA",TRUE
+"Product Card","Product Description","Dark","#0f172a","#94a3b8",6.96:1,4.5:1,"AA",TRUE
+"Product Card","View Details Link","Light","#ffffff","#2563eb",5.17:1,4.5:1,"AA",TRUE
+"Product Card","View Details Link","Dark","#0f172a","#60a5fa",7.02:1,4.5:1,"AAA",TRUE
+"Category Sidebar","Header Label","Light","#f8fafc","#475569",7.24:1,4.5:1,"AAA",TRUE
+"Category Sidebar","Header Label","Dark","#020617","#94a3b8",7.87:1,4.5:1,"AAA",TRUE
+"Category Sidebar","Active Category Item","Light","#eff6ff","#1d4ed8",6.16:1,4.5:1,"AA",TRUE
+"Category Sidebar","Active Category Item","Dark","#1e3a5f","#93c5fd",6.38:1,4.5:1,"AA",TRUE
+"Category Sidebar","Inactive Category Item","Light","#f8fafc","#475569",7.24:1,4.5:1,"AAA",TRUE
+"Category Sidebar","Inactive Category Item","Dark","#020617","#cbd5e1",13.59:1,4.5:1,"AAA",TRUE
+"Header","Brand Name","Light","#ffffff","#0f172a",17.85:1,3:1,"AAA",TRUE
+"Header","Brand Name","Dark","#020617","#f1f5f9",18.41:1,3:1,"AAA",TRUE
+"Header","Nav Links (Inactive)","Light","#ffffff","#475569",7.58:1,4.5:1,"AAA",TRUE
+"Header","Nav Links (Inactive)","Dark","#020617","#cbd5e1",13.59:1,4.5:1,"AAA",TRUE
+"Header","Nav Links (Active)","Light","#eff6ff","#1d4ed8",6.16:1,4.5:1,"AA",TRUE
+"Header","Nav Links (Active)","Dark","#1e3a5f","#93c5fd",6.38:1,4.5:1,"AA",TRUE
+"Header","Search Trigger Button","Light","#f8fafc","#475569",7.24:1,4.5:1,"AAA",TRUE
+"Header","Search Trigger Button","Dark","#1e293b","#cbd5e1",9.85:1,4.5:1,"AAA",TRUE
+"Footer","Brand Name","Dark Footer (Both Modes)","#020617","#ffffff",20.17:1,3:1,"AAA",TRUE
+"Footer","Footer Description","Dark Footer (Both Modes)","#020617","#94a3b8",7.87:1,4.5:1,"AAA",TRUE
+"Footer","Footer Navigation Links","Dark Footer (Both Modes)","#020617","#cbd5e1",13.59:1,4.5:1,"AAA",TRUE
+"Footer","Copyright & Compliance","Dark Footer (Both Modes)","#020617","#94a3b8",7.87:1,4.5:1,"AAA",TRUE
+"Admin Dashboard","Metric Title","Light","#ffffff","#475569",7.58:1,4.5:1,"AAA",TRUE
+"Admin Dashboard","Metric Title","Dark","#0f172a","#cbd5e1",12.02:1,4.5:1,"AAA",TRUE
+"Admin Dashboard","Metric Large Number","Light","#ffffff","#0f172a",17.85:1,3:1,"AAA",TRUE
+"Admin Dashboard","Metric Large Number","Dark","#0f172a","#f1f5f9",16.3:1,3:1,"AAA",TRUE
+"Admin Tables","Table Header","Light","#f8fafc","#334155",9.9:1,4.5:1,"AAA",TRUE
+"Admin Tables","Table Header","Dark","#1e293b","#cbd5e1",9.85:1,4.5:1,"AAA",TRUE
+"Admin Tables","Primary Row Cell","Light","#ffffff","#0f172a",17.85:1,4.5:1,"AAA",TRUE
+"Admin Tables","Primary Row Cell","Dark","#0f172a","#f1f5f9",16.3:1,4.5:1,"AAA",TRUE
+"Admin Tables","Secondary Row Cell / Subtitle","Light","#ffffff","#475569",7.58:1,4.5:1,"AAA",TRUE
+"Admin Tables","Secondary Row Cell / Subtitle","Dark","#0f172a","#cbd5e1",12.02:1,4.5:1,"AAA",TRUE

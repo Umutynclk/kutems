@@ -1,0 +1,20 @@
+{
+  "rawCount": 1444,
+  "normalizedCount": 1442,
+  "uniqueArticles": 1442,
+  "duplicateArticles": 0,
+  "automationCount": 94,
+  "hardwareCount": 1348,
+  "categoryCount": 11,
+  "totalManifestImages": 2922,
+  "productsWithSpecs": 1436,
+  "totalSpecsCount": 12990,
+  "productsWithDownloads": 8,
+  "totalDownloadsCount": 8,
+  "missingEnName": 0,
+  "missingEnDesc": 2,
+  "missingTrName": 1442,
+  "missingTrDesc": 1442,
+  "productsWithoutImages": 0,
+  "timestamp": "2026-11-16T16:11:31.671Z"
+}

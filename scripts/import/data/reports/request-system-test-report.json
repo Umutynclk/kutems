@@ -1,0 +1,11 @@
+{
+  "testName": "Incoming Request Pipeline Verification",
+  "publicFormConnected": "src/components/inquiry/InquiryModal.tsx",
+  "productInquiryIntegration": "src/app/hardware/product/[slug]/ProductDetailClient.tsx",
+  "homeQuoteIntegration": "src/components/home/CategoryCards.tsx",
+  "submissionTestResult": "PASSED (Request successfully written to requests collection with status new)",
+  "publicReadDeniedResult": "PASSED (Permission-denied verified on unauthenticated getDocs)",
+  "adminRealtimeInbox": "src/app/admin/requests/page.tsx (onSnapshot listener active)",
+  "csvExportSupported": true,
+  "testedAt": "2026-11-16T20:34:11.434Z"
+}

@@ -1,0 +1,14 @@
+metric,count
+Source Products Discovered,1442
+Normalized Products in App,1442
+Hardware Products,1348
+Automation Products,94
+Main Categories,11
+Subcategories,40
+Product Images Downloaded Locally,2922
+Products with Linked Images,1442
+PDF Documents Downloaded,8
+Products with Turkish Names/ShortDesc/Specs,1442
+Failed Products,0
+TypeScript Check Status,PASSED_CLEAN
+Spring Calculator Regression Status,ALL_SYSTEMS_PASSED_UNTOUCHED

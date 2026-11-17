@@ -1,0 +1,208 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "calculation": "Yay Hesaplama",
+    "hardware": "Donanım Kataloğu",
+    "automation": "Otomasyon",
+    "search": "Arama...",
+    "searchPlaceholder": "Ürün adı, parça kodu veya kategori arayın...",
+    "searchQuick": "Hızlı Arama (Cmd + K)",
+    "language": "Dil",
+    "theme": "Tema",
+    "light": "Açık",
+    "dark": "Koyu",
+    "menu": "Menü"
+  },
+  "home": {
+    "badge": "YENİ NESİL ENDÜSTRİYEL KAPI DONANIM VE HESAPLAMA SİSTEMİ",
+    "heroTitle": "Seksiyonel Kapı Sistemlerinde",
+    "heroTitleHighlight": "Mühendislik Hassasiyeti",
+    "heroDescription": "Gelişmiş torsiyon yay hesaplama motoru, zengin donanım bileşen kataloğu ve endüstriyel otomasyon çözümleriyle projelerinizi profesyonelce yönetin.",
+    "ctaCalculate": "Hesaplamayı Başlat",
+    "ctaHardware": "Kataloğu İncele",
+    "cards": {
+      "calculation": {
+        "tag": "MÜHENDİSLİK MOTORU",
+        "title": "Yay Hesaplama (SpringForce)",
+        "description": "Torsiyon yay sistemlerinizi tambur tipi, tel çapı, tur sayısı ve çevrim ömrü parametreleriyle milimetrik hassasiyette hesaplayın.",
+        "action": "Hesaplama Başlat"
+      },
+      "hardware": {
+        "tag": "BİLEŞEN KATALOĞU",
+        "title": "Donanım Sistemleri",
+        "description": "Ray sistemleri, tamburlar, mil bileşenleri, tekerlekler ve profiller dahil olmak üzere binlerce teknik parçayı keşfedin.",
+        "action": "Donanımları Keşfet"
+      },
+      "automation": {
+        "tag": "MOTOR & ELEKTRONİK",
+        "title": "Otomasyon Çözümleri",
+        "description": "Konut ve endüstriyel seksiyonel kapılar için yüksek performanslı motorlar, kontrol üniteleri ve güvenlik aksesuarları.",
+        "action": "Otomasyonu İncele"
+      }
+    },
+    "features": {
+      "title": "Neden Bizim Sistemimiz?",
+      "subtitle": "B2B kapı üreticileri ve montaj uzmanları için tasarlandı",
+      "f1Title": "Hassas Matematiksel Algoritmalar",
+      "f1Desc": "Her kapı ağırlığı ve ray konfigürasyonu için en uygun 5 torsiyon yay kombinasyonunu anında analiz eder.",
+      "f2Title": "Kapsamlı Teknik Veri Tabanı",
+      "f2Desc": "Tüm donanım ve otomasyon parçalarının teknik çizimleri, toleransları ve uyumluluk verileri tek platformda.",
+      "f3Title": "İki Dilli Küresel Standart",
+      "f3Desc": "Uluslararası standartlarda EN 13241-1 uyumlu hesaplama mantığı ve çift dilli arayüz."
+    }
+  },
+  "calculator": {
+    "title": "Torsiyon Yay Hesaplama",
+    "subtitle": "Kapı ölçüleri, ray tipi ve ağırlık parametrelerini girerek sisteminiz için en verimli 5 yay çözümünü listeleyin.",
+    "steps": {
+      "basic": "1. Temel Kapı Bilgileri",
+      "track": "2. Ray & Tambur Yapılandırması",
+      "spring": "3. Yay Parametreleri",
+      "cable": "4. Halat ve Güvenlik",
+      "summary": "Özet Hesaplama Parametreleri"
+    },
+    "fields": {
+      "trackSystem": "Ray Sistemi (Track System)",
+      "doorWidth": "Kapı Genişliği",
+      "doorHeight": "Kapı Yüksekliği",
+      "highLiftSize": "High Lift Yüksekliği",
+      "trackPitch": "Ray Eğimi (Pitch)",
+      "hingedSections": "Menteşeli Panel Sayısı",
+      "calcWeight": "Hesaplama Ağırlık Katsayısı",
+      "totalDoorWeight": "Toplam Kapı Ağırlığı",
+      "bottomSection": "Alt Panel Tipi",
+      "heightBottomSection": "Alt Panel Yüksekliği",
+      "openDoorWeight": "Açık Kapı Ağırlığı",
+      "numberOfTurns": "Ön Gergi Tur Sayısı",
+      "drumSpecification": "Tambur Belirleme",
+      "drum": "Tambur Modeli",
+      "torsionSprings": "Torsiyon Yay Adedi",
+      "shaftConnectors": "Mil Bağlantı Parçaları",
+      "shaftDiameter": "Mil Çapı (Shaft Ø)",
+      "springFinish": "Yay Yüzey Kaplaması",
+      "minCycles": "Min. Çevrim Ömrü (Cycles)",
+      "springTypes": "Yay Tipi Konfigürasyonu",
+      "cableType": "Halat Tipi",
+      "cableDiameter": "Halat Çapı",
+      "cableTensionSet": "Halat Gergi Kiti",
+      "cableLength": "Halat Boyu",
+      "cableMaxLoad": "Halat Maks. Yük",
+      "torqueTotal": "Toplam Tork",
+      "torquePerSpring": "Yay Başına Tork"
+    },
+    "placeholders": {
+      "doorWidth": "ör. 2500",
+      "doorHeight": "ör. 2125",
+      "highLiftSize": "ör. 1200",
+      "trackPitch": "ör. 0",
+      "totalDoorWeight": "Otomatik veya manuel kg",
+      "openDoorWeight": "ör. 18",
+      "numberOfTurns": "ör. 8.2",
+      "cableLength": "ör. 3100",
+      "cableMaxLoad": "ör. 450"
+    },
+    "tooltips": {
+      "trackSystem": "Kapının tavan açısına veya yüksekliğine göre ray geometrisini belirler.",
+      "doorWidth": "Net kapı geçiş açıklığı (mm).",
+      "doorHeight": "Net kapı geçiş yüksekliği (mm).",
+      "minCycles": "Hedeflenen kullanım ömrü (açma/kapama döngüsü).",
+      "springFinish": "Korozyon direnci ve estetik için yay yüzey işlemi."
+    },
+    "buttons": {
+      "calculate": "Yay Sistemini Hesapla",
+      "calculating": "Hesaplanıyor...",
+      "reset": "Formu Temizle",
+      "showDetails": "Detayları Göster",
+      "hideDetails": "Detayları Gizle",
+      "exportPdf": "Rapor Al",
+      "copySpecs": "Parametreleri Kopyala",
+      "copied": "Kopyalandı!"
+    },
+    "results": {
+      "title": "Hesaplama Sonuçları",
+      "subtitle": "Kriterlerinize uygun 5 alternatif yay çözümü listelendi.",
+      "summaryMetrics": "Hesaplanan Temel Değerler",
+      "solutionsCount": "Çözüm Sayısı",
+      "table": {
+        "solution": "Çözüm",
+        "drum": "Tambur",
+        "turns": "Tur Sayısı",
+        "cycles": "Çevrim",
+        "wireDia": "Tel Ø (mm)",
+        "outerDia": "Dış Ø (mm)",
+        "springLength": "Yay Boyu (mm)",
+        "quantity": "Adet",
+        "direction": "Yön",
+        "torque": "Tork (Nmm/Tur)",
+        "weight": "Ağırlık",
+        "actions": "Detay"
+      },
+      "details": {
+        "solutionTitle": "Çözüm Detayları",
+        "wireDiameter": "Tel Çapı",
+        "springDiameter": "İç / Dış Çap",
+        "totalSpringLength": "Toplam Yay Uzunluğu",
+        "winds": "Aktif Sarım Sayısı",
+        "direction": "Sarım Yönü (LW / RW)",
+        "shaftDiameter": "Uygun Mil Çapı",
+        "springCode": "Önerilen Parça Kodu",
+        "springWeight": "Yay Kütlesi"
+      }
+    }
+  },
+  "catalog": {
+    "hardwareTitle": "Donanım Bileşenleri Kataloğu",
+    "hardwareSubtitle": "Seksiyonel kapı sistemleri için endüstri standardında ray, mil, yay ve montaj bileşenleri.",
+    "automationTitle": "Otomasyon & Motor Sistemleri",
+    "automationSubtitle": "Yüksek dayanımlı tavan ve şaft motorları, emniyet fotoselleri ve uzaktan kumandalar.",
+    "categories": "Kategoriler",
+    "allCategories": "Tüm Kategoriler",
+    "subcategories": "Alt Kategoriler",
+    "allProducts": "Tüm Ürünler",
+    "search": "Katalogda Ara...",
+    "sortBy": "Sırala",
+    "sortOptions": {
+      "nameAsc": "İsim (A-Z)",
+      "nameDesc": "İsim (Z-A)",
+      "codeAsc": "Ürün Kodu (A-Z)",
+      "newest": "En Yeniler"
+    },
+    "resultsFound": "ürün bulundu",
+    "noProducts": "Arama kriterlerinize uygun ürün bulunamadı.",
+    "clearFilters": "Filtreleri Temizle",
+    "viewDetails": "Detayları İncele",
+    "productCode": "Ürün Kodu",
+    "specs": "Teknik Özellikler",
+    "material": "Malzeme",
+    "dimensions": "Boyutlar",
+    "downloads": "Teknik Dokümanlar",
+    "downloadPdf": "Teknik Çizim / PDF İndir",
+    "compatible": "Uyumlu Parçalar",
+    "backToCatalog": "Kataloğa Geri Dön",
+    "overview": "Ürün Genel Bakış",
+    "inquire": "Teknik Bilgi Talebi"
+  },
+  "footer": {
+    "description": "Seksiyonel kapı donanımları, otomasyon sistemleri ve mühendislik hesaplama çözümlerinde güvenilir B2B ortağınız.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "categories": "Ürün Grupları",
+    "springSystems": "Yay Sistemleri",
+    "trackComponents": "Ray Bileşenleri",
+    "automationGroup": "Otomasyon Grubu",
+    "support": "Destek & Mühendislik",
+    "standards": "EN 13241-1 Standartları",
+    "documentation": "Teknik Kılavuzlar",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Şartları",
+    "rights": "Tüm hakları saklıdır."
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "notFoundTitle": "Sayfa Bulunamadı",
+    "notFoundDesc": "Aradığınız sayfa mevcut değil veya taşınmış olabilir.",
+    "backHome": "Ana Sayfaya Dön",
+    "optional": "Opsiyonel",
+    "required": "Zorunlu"
+  }
+}

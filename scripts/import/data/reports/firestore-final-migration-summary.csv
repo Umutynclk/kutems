@@ -1,0 +1,15 @@
+metric,value
+Project Name,KUTEMS
+Total Normalized Products,1442
+Hardware Products,1348
+Automation Products,94
+Main Categories,11
+Subcategories,40
+Cloudflare Pages CDN,https://kutems-media.pages.dev
+Total Images Verified (HTTP 200),2922 / 2922
+Total PDFs Verified (HTTP 200),8 / 8
+CDN Verification Rate,100.00%
+Failed Products,0
+Spring Calculator Regression Status,100% PASSED
+Dual-Layer Architecture Status,ACTIVE (Instant Local Fallback + Firestore Ready)
+Firestore API Status,PENDING_GCP_CONSOLE_PROVISIONING
