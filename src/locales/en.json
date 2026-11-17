@@ -14,10 +14,10 @@
     "menu": "Menu"
   },
   "home": {
-    "badge": "NEXT-GENERATION INDUSTRIAL DOOR HARDWARE & CALCULATION SYSTEM",
-    "heroTitle": "Engineering Precision for",
+    "badge": "Professional Door Solutions",
+    "heroTitle": "Engineering and Hardware Solutions for",
     "heroTitleHighlight": "Sectional Door Systems",
-    "heroDescription": "Manage your door projects professionally with our high-precision torsion spring calculation engine, extensive hardware components catalog, and industrial automation solutions.",
+    "heroDescription": "With a torsion spring calculation engine, more than 1,400 hardware components and modern automation solutions, everything you need is on one platform.",
     "ctaCalculate": "Start Calculation",
     "ctaHardware": "Browse Catalog",
     "cards": {
@@ -25,19 +25,22 @@
         "tag": "ENGINEERING ENGINE",
         "title": "Spring Calculation (SpringForce)",
         "description": "Calculate your torsion spring systems with millimeter accuracy using drum type, wire diameter, turns, and cycle life parameters.",
-        "action": "Start Calculation"
+        "action": "Start Calculation",
+        "cta": "Start Calculation"
       },
       "hardware": {
         "tag": "COMPONENTS CATALOG",
         "title": "Hardware Systems",
         "description": "Explore thousands of technical parts including track systems, cable drums, shaft components, rollers, and profiles.",
-        "action": "Explore Hardware"
+        "action": "Explore Hardware",
+        "cta": "Explore Hardware"
       },
       "automation": {
         "tag": "MOTORS & ELECTRONICS",
         "title": "Automation Solutions",
         "description": "High-performance operators, control units, and safety accessories for residential and industrial sectional doors.",
-        "action": "Explore Automation"
+        "action": "Explore Automation",
+        "cta": "Explore Automation"
       }
     },
     "features": {

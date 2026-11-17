@@ -14,10 +14,10 @@
     "menu": "Menü"
   },
   "home": {
-    "badge": "YENİ NESİL ENDÜSTRİYEL KAPI DONANIM VE HESAPLAMA SİSTEMİ",
+    "badge": "Profesyonel Kapı Çözümleri",
     "heroTitle": "Seksiyonel Kapı Sistemlerinde",
-    "heroTitleHighlight": "Mühendislik Hassasiyeti",
-    "heroDescription": "Gelişmiş torsiyon yay hesaplama motoru, zengin donanım bileşen kataloğu ve endüstriyel otomasyon çözümleriyle projelerinizi profesyonelce yönetin.",
+    "heroTitleHighlight": "Mühendislik ve Donanım Çözümleri",
+    "heroDescription": "Torsiyon yay hesaplama motoru, 1.400'den fazla donanım bileşeni ve modern otomasyon çözümleri ile tüm ihtiyaçlarınız tek platformda.",
     "ctaCalculate": "Hesaplamayı Başlat",
     "ctaHardware": "Kataloğu İncele",
     "cards": {
@@ -25,19 +25,22 @@
         "tag": "MÜHENDİSLİK MOTORU",
         "title": "Yay Hesaplama (SpringForce)",
         "description": "Torsiyon yay sistemlerinizi tambur tipi, tel çapı, tur sayısı ve çevrim ömrü parametreleriyle milimetrik hassasiyette hesaplayın.",
-        "action": "Hesaplama Başlat"
+        "action": "Hesaplamayı Başlat",
+        "cta": "Hesaplamayı Başlat"
       },
       "hardware": {
         "tag": "BİLEŞEN KATALOĞU",
         "title": "Donanım Sistemleri",
         "description": "Ray sistemleri, tamburlar, mil bileşenleri, tekerlekler ve profiller dahil olmak üzere binlerce teknik parçayı keşfedin.",
-        "action": "Donanımları Keşfet"
+        "action": "Aksesuarları Keşfet",
+        "cta": "Aksesuarları Keşfet"
       },
       "automation": {
         "tag": "MOTOR & ELEKTRONİK",
         "title": "Otomasyon Çözümleri",
         "description": "Konut ve endüstriyel seksiyonel kapılar için yüksek performanslı motorlar, kontrol üniteleri ve güvenlik aksesuarları.",
-        "action": "Otomasyonu İncele"
+        "action": "Otomasyon Çözümlerini Keşfet",
+        "cta": "Otomasyon Çözümlerini Keşfet"
       }
     },
     "features": {

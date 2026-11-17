@@ -88,6 +88,8 @@ export default function CategoryCards() {
 
   const [cmsPage, setCmsPage] = useState<SitePage | null>(null);
   const [inquiryOpen, setInquiryOpen] = useState(false);
+  const [bgError, setBgError] = useState(false);
+  const [heroBgImageFallback, setHeroBgImageFallback] = useState<string | null>(null);
 
   useEffect(() => {
     getPageContent("home")
@@ -100,7 +102,11 @@ export default function CategoryCards() {
   const heroSection = cmsPage?.sections?.find((s) => s.type === "hero" && s.visible);
   const ctaSection = cmsPage?.sections?.find((s) => s.type === "cta" && s.visible);
 
-  const heroBgImage = heroSection?.imageUrl || "/images/kutems-hero-background.jpg";
+  const rawHeroBg = heroSection?.imageUrl?.trim() || "/images/kutems-hero-background.jpg";
+  const normalizedHeroBg = rawHeroBg.startsWith("http") || rawHeroBg.startsWith("/")
+    ? rawHeroBg
+    : `/${rawHeroBg}`;
+  const heroBgImage = heroBgImageFallback || normalizedHeroBg;
   const heroBadge = heroSection?.badge?.[locale as "tr" | "en"] || t("home.badge");
   const heroTitle = heroSection?.title?.[locale as "tr" | "en"] || t("home.heroTitle");
   const heroTitleHighlight = heroSection?.subtitle?.[locale as "tr" | "en"] || t("home.heroTitleHighlight");
@@ -109,17 +115,38 @@ export default function CategoryCards() {
   return (
     <div className="w-full">
       {/* Full-width 16:9 Photographic Hero Section */}
-      <section className="relative w-full overflow-hidden border-b border-slate-200 dark:border-slate-800 min-h-[500px] sm:min-h-[580px] md:min-h-[660px] lg:min-h-[760px] xl:min-h-[860px] md:aspect-[16/9] flex items-center justify-center">
-        {/* Background Image Layer (Showing almost the entire 16:9 composition) */}
+      <section className="relative w-full overflow-hidden border-b border-slate-200 dark:border-slate-800 min-h-[440px] sm:min-h-[500px] md:min-h-[560px] lg:min-h-[640px] xl:min-h-[700px] max-h-[760px] md:aspect-[16/9] flex items-center justify-center bg-slate-900">
+        {/* Background Image Layer (Optimized scale, sharpness, aspect preservation & robust fallback) */}
         <div
-          className="absolute inset-0 bg-cover bg-no-repeat bg-[position:65%_35%] sm:bg-center md:bg-center motion-reduce:transform-none"
+          className={`absolute inset-0 transition-opacity duration-300 ${
+            bgError ? "bg-gradient-to-br from-slate-900 via-slate-800 to-slate-950" : ""
+          }`}
           style={{
-            backgroundImage: `url('${heroBgImage}')`,
+            backgroundImage: bgError ? "none" : `url('${heroBgImage}')`,
+            backgroundSize: "cover",
+            backgroundPosition: "center 42%",
+            backgroundRepeat: "no-repeat",
           }}
           aria-hidden="true"
         />
 
-        {/* Adaptive Theme Overlay Layer (Subtle, ensures photographic visibility in both themes) */}
+        {/* Hidden image preloader to catch 404 and safely handle fallback */}
+        {!bgError && (
+          <img
+            src={heroBgImage}
+            alt=""
+            className="hidden"
+            onError={() => {
+              if (heroBgImage !== "/images/kutems-hero-background.jpg") {
+                setHeroBgImageFallback("/images/kutems-hero-background.jpg");
+              } else {
+                setBgError(true);
+              }
+            }}
+          />
+        )}
+
+        {/* Adaptive Theme Overlay Layer (Kept exactly as instructed) */}
         <div
           className="absolute inset-0 bg-gradient-to-b from-white/35 via-white/25 to-white/40 dark:from-slate-950/55 dark:via-slate-950/40 dark:to-slate-950/60"
           aria-hidden="true"

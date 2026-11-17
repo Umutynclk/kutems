@@ -71,14 +71,14 @@ export default function LoginPage() {
           <h1 className="mt-3 text-xl font-semibold text-slate-900 dark:text-slate-100">
             {locale === "tr" ? "Hesabınıza Giriş Yapın" : "Sign In to Your Account"}
           </h1>
-          <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-            {locale === "tr"
-              ? "Hesabınız yok mu?"
-              : "Don't have an account?"}{" "}
-            <Link href="/register" className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
-              {locale === "tr" ? "Kayıt olun" : "Sign up"}
-            </Link>
-          </p>
+          <div className="mt-3 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800/80 text-xs text-slate-600 dark:text-slate-400 border border-slate-200 dark:border-slate-700">
+            <span className="w-1.5 h-1.5 rounded-full bg-amber-500 shrink-0" />
+            <span>
+              {locale === "tr"
+                ? "Yeni kullanıcı kayıtları şu anda kapalıdır. Mevcut hesabınızla giriş yapabilirsiniz."
+                : "New user registration is currently unavailable. You can sign in with your existing account."}
+            </span>
+          </div>
         </div>
 
         {/* Form Card */}

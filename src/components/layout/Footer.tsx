@@ -5,7 +5,7 @@ import { useLocale } from "@/context/LocaleContext";
 import { Calculator, Package, Cpu, Mail, Globe, Shield, FileText } from "lucide-react";
 
 export default function Footer() {
-  const { t } = useLocale();
+  const { t, locale } = useLocale();
   const year = new Date().getFullYear();
 
   return (
@@ -128,6 +128,14 @@ export default function Footer() {
             <span className="h-1.5 w-1.5 rounded-full bg-green-500"></span>
             EN 13241-1 Compliant
           </div>
+        </div>
+
+        {/* Developer Signature */}
+        <div className="mt-8 pt-5 border-t border-slate-900 text-center">
+          <p className="text-xs font-medium tracking-wide text-slate-400 hover:text-slate-200 transition-colors inline-flex items-center justify-center gap-1.5 select-none">
+            <span>{locale === "tr" ? "Geliştirici:" : "Developed by"}</span>
+            <span className="font-semibold text-slate-300">Umutynclk</span>
+          </p>
         </div>
       </div>
     </footer>

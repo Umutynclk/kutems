@@ -37,15 +37,15 @@ export const DEFAULT_SITE_PAGES: Record<string, SitePage> = {
         type: "hero",
         title: {
           tr: "Seksiyonel Kapı Sistemlerinde",
-          en: "In Sectional Door Systems",
+          en: "Engineering and Hardware Solutions for",
         },
         subtitle: {
           tr: "Mühendislik ve Donanım Çözümleri",
-          en: "Engineering & Hardware Solutions",
+          en: "Sectional Door Systems",
         },
         content: {
           tr: "Torsiyon yay hesaplama motoru, 1.400'den fazla donanım bileşeni ve modern otomasyon çözümleri ile tüm ihtiyaçlarınız tek platformda.",
-          en: "Torsion spring calculation engine, over 1,400 hardware components, and modern automation solutions on a single platform.",
+          en: "With a torsion spring calculation engine, more than 1,400 hardware components and modern automation solutions, everything you need is on one platform.",
         },
         badge: {
           tr: "Profesyonel Kapı Çözümleri",
@@ -56,6 +56,7 @@ export const DEFAULT_SITE_PAGES: Record<string, SitePage> = {
           en: "Spring Calculator Engine",
         },
         buttonLink: "/calculation",
+        imageUrl: "/images/kutems-hero-background.jpg",
         visible: true,
         order: 1,
       },
